@@ -39,6 +39,7 @@ class Graph():
                 if self.graph[u][v] > 0 and sptSet[v] == False and dist[v] > dist[u] + self.graph[u][v]:
                     dist[v] = dist[u] + self.graph[u][v]
 
+
         self.printSolution(dist)
 
 
